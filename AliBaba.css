@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Vazir;
+  src: url(fonts/Vazir.woff);
+}
+
+.Container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Vazir;
+  font-size: 1.2rem;
+  user-select: none;
+}
+.row {
+  display: flex;
+  margin: 5px;
+}
+.row span {
+  width: 220px;
+  direction: rtl;
+}
+.row div span {
+  padding: 10px;
+}
+.btn {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: solid 2px orange;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn:active {
+  background-color: orange;
+  color: #fff;
+}
+
+#total{
+    margin-top: 15px;
+}
